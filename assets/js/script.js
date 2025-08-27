@@ -107,11 +107,11 @@ async function fetchData(type = "skills") {
                 "name" : "C",
                 "icon" : "https://img.icons8.com/color/48/c-programming.png"
             },
-            /*{
+            {
                 "name" : "C++",
                 "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
             },
-            {
+            /*{
                 "name" : "C#",
                 "icon" : "https://img.icons8.com/color/48/c-programming.png"
             },
@@ -210,19 +210,23 @@ async function fetchData(type = "skills") {
             },{
                 "name" : "Postman",
                 "icon" : "https://img.icons8.com/pulsar-color/48/postman-api.png"
-            },{
+            },
+            /*{
                 "name" : "FFMpeg",
                 "icon" : "https://img.icons8.com/color/48/ffmpeg.png"
-            },{
+            },*/
+            {
                 "name" : "Docker",
                 "icon" : "https://img.icons8.com/color/48/docker.png"
-            },{
+            },
+            {
                 "name" : "NumPy",
                 "icon" : "https://img.icons8.com/color/48/numpy.png"
-            },{
+            },
+            /*{
                 "name" : "Confluence",
                 "icon" : "https://img.icons8.com/color/48/confluence--v2.png"
-            },
+            },*/
             {
                 "name": "Tableau",
                 "icon": "https://img.icons8.com/color/48/tableau-software.png"
@@ -247,7 +251,7 @@ async function fetchData(type = "skills") {
                 "name": "Video Edit",
                 "icon": "https://img.icons8.com/fluency/48/video.png"
             },
-            {
+            /*{
                 "name": "Solutions",
                 "icon": "https://img.icons8.com/color/48/solve-problem.png"
             },
@@ -258,7 +262,7 @@ async function fetchData(type = "skills") {
             {
                 "name": "Research",
                 "icon": "https://img.icons8.com/color/48/fine-print.png"
-            },
+            },*/
             {
                 "name": "Leadership",
                 "icon": "https://img.icons8.com/color/48/meeting-room.png" 
@@ -269,7 +273,7 @@ async function fetchData(type = "skills") {
             {
               "name": "Sentiment Analysis of Twitter Data",
               "desc": "A ML based desktop tool for filtering data from social media posts. It uses NLP for preprocessing and applies multiple classifiers with GUI-based interaction using Tkinter.",
-              "image": "./assets/images/projects/sentiment analysis.png",
+              "image": "assets/images/projects/sentiment analysis.png",
               "category": "visual",
               "links": {
                 "view": "https://github.com/KandulaThanmayee/SNS-GarbageFiltering",
@@ -279,7 +283,7 @@ async function fetchData(type = "skills") {
             {
                 "name": "AI ChatBot",
                 "desc": "A BERT-based AI Chatbot built using Flask that answers user questions using a fine-tuned transformer model.",
-                "image": "./assets/images/projects/aibot.png",
+                "image": "assets/images/projects/aibot.png",
                 "category": "visual",
                 "links": {
                   "view": "https://github.com/KandulaThanmayee/AI-Chatbot-using-Flask",
@@ -289,7 +293,7 @@ async function fetchData(type = "skills") {
               {
                 "name": "Android API Data Pipeline",
                 "desc": "A scalable data engineering pipeline that simulates Android API violations, streams logs via Kafka, automates workflows with Airflow, and stores outputs in AWS S3.",
-                "image": "./assets/images/projects/data pipeline.png",
+                "image": "assets/images/projects/data pipeline.png",
                 "category": "visual",
                 "links": {
                   "view": "https://github.com/KandulaThanmayee/Android-API-Data-Pipeline",
