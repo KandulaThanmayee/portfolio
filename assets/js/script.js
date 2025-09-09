@@ -72,7 +72,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Pradhatri Vemula";
+            document.title = "Portfolio | Thanmayee Kandula";
             $("#favicon").attr("href", "assets/images/favicon2.png");
         }
         else {
