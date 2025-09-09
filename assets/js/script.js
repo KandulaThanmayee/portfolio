@@ -283,7 +283,7 @@ async function fetchData(type = "skills") {
             {
                 "name": "AI ChatBot",
                 "desc": "A BERT-based AI Chatbot built using Flask that answers user questions using a fine-tuned transformer model.",
-                "image": "${aibot}",
+                "image": "./assets/images/projects${aibot}.png",
                 "category": "visual",
                 "links": {
                   "view": "https://github.com/KandulaThanmayee/AI-Chatbot-using-Flask",
@@ -327,7 +327,7 @@ function showProjects(projects) {
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/${project.image}.png" alt="projecthello" />
+      <img draggable="false" src="./assets/images/projects${project.image}.png" alt="projecthello" />
       
       <div class="content">
         <div class="tag">
