@@ -273,7 +273,7 @@ async function fetchData(type = "skills") {
             {
               "name": "Sentiment Analysis of Twitter Data",
               "desc": "A ML based desktop tool for filtering data from social media posts. It uses NLP for preprocessing and applies multiple classifiers with GUI-based interaction using Tkinter.",
-              "image": "${sentiment analysis}",
+              "image": "./assets/images/projects/sentiment-analysis.png",
               "category": "visual",
               "links": {
                 "view": "https://github.com/KandulaThanmayee/SNS-GarbageFiltering",
@@ -283,7 +283,7 @@ async function fetchData(type = "skills") {
             {
                 "name": "AI ChatBot",
                 "desc": "A BERT-based AI Chatbot built using Flask that answers user questions using a fine-tuned transformer model.",
-                "image": "./assets/images/projects${aibot}.png",
+                "image": "./assets/images/projects/aibot.png",
                 "category": "visual",
                 "links": {
                   "view": "https://github.com/KandulaThanmayee/AI-Chatbot-using-Flask",
@@ -293,7 +293,7 @@ async function fetchData(type = "skills") {
               {
                 "name": "Android API Data Pipeline",
                 "desc": "A scalable data engineering pipeline that simulates Android API violations, streams logs via Kafka, automates workflows with Airflow, and stores outputs in AWS S3.",
-                "image": "${data pipeline}",
+                "image": "./assets/images/projects/data-pipeline.png",
                 "category": "visual",
                 "links": {
                   "view": "https://github.com/KandulaThanmayee/Android-API-Data-Pipeline",
@@ -327,7 +327,7 @@ function showProjects(projects) {
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects${project.image}.png" alt="projecthello" />
+      <img draggable="false" src="${project.image}" alt="projecthello" />
       
       <div class="content">
         <div class="tag">
