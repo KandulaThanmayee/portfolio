@@ -273,7 +273,7 @@ async function fetchData(type = "skills") {
             {
               "name": "Sentiment Analysis of Twitter Data",
               "desc": "A ML based desktop tool for filtering data from social media posts. It uses NLP for preprocessing and applies multiple classifiers with GUI-based interaction using Tkinter.",
-              "image": "./assets/images/projects/sentiment-analysis.png",
+              "image": "./assets/images/projects/sns-data.png",
               "category": "visual",
               "links": {
                 "view": "https://github.com/KandulaThanmayee/SNS-GarbageFiltering",
