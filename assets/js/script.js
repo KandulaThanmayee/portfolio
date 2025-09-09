@@ -273,7 +273,7 @@ async function fetchData(type = "skills") {
             {
               "name": "Sentiment Analysis of Twitter Data",
               "desc": "A ML based desktop tool for filtering data from social media posts. It uses NLP for preprocessing and applies multiple classifiers with GUI-based interaction using Tkinter.",
-              "image": "./assets/images/projects/sns-data.png",
+              "image": "./assets/images/projects/snsdata.png",
               "category": "visual",
               "links": {
                 "view": "https://github.com/KandulaThanmayee/SNS-GarbageFiltering",
@@ -293,7 +293,7 @@ async function fetchData(type = "skills") {
               {
                 "name": "Android API Data Pipeline",
                 "desc": "A scalable data engineering pipeline that simulates Android API violations, streams logs via Kafka, automates workflows with Airflow, and stores outputs in AWS S3.",
-                "image": "./assets/images/projects/data-pipeline.png",
+                "image": "./assets/images/projects/datapipeline.png",
                 "category": "visual",
                 "links": {
                   "view": "https://github.com/KandulaThanmayee/Android-API-Data-Pipeline",
