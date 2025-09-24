@@ -72,7 +72,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Thanmayee Kandula";
+            document.title = "Portfolio | Thanmayee K";
             $("#favicon").attr("href", "assets/images/favicon2.png");
         }
         else {
@@ -84,7 +84,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Software Engineer", "Data Engineer", "Data Analyst", "Back-End Engineer"],
+    strings: ["Software Engineer", "Data Engineer", "Data Analyst"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
